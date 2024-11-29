@@ -1,0 +1,5 @@
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log' @29-11-2024 06:13:28.0729 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log: 20241129-061328' @29-11-2024 06:13:28.0752 AM
+[ReportManager] Successfully created attachment 'HTML - Checkpoints Report' @29-11-2024 06:13:28.0758 AM
+[ReportManager] Issue Summary: Total Issues = 2, New issues for Failed Tests = 2, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @29-11-2024 06:13:28.0769 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20241129-061328' @29-11-2024 06:13:28.0772 AM

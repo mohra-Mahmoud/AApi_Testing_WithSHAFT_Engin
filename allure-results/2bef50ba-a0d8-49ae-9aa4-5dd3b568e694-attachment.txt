@@ -1,0 +1,584 @@
+[INFO ] 2024-11-29 06:13:22.034 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:22.047 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-11-29 06:13:22.078 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-11-29 06:13:22.110 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-11-29 06:13:22.120 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-11-29 06:13:22.496 [main] Utils - [TestNG] Running:
+  C:\Users\cyber\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-11-29 06:13:22.579 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:22.665 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-11-29 06:13:22.942 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                      Test Method: 'ApiTest.ListOfPostsTestCases.CheckValuesForFirstObject'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:23.305 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-11-29 06:13:24.527 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:24.529 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-29 06:13:24.531 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-29 06:13:24.963 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-11-29 06:13:24.963 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:24.988 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:24.994 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-11-29 06:13:25.544 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-29 06:13:25.547 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-29 06:13:25.547 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:25.548 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:25.549 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-29 06:13:25.549 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.551 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.551 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.551 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.551 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.551 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.552 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> Accept: */*
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> Host: api.github.com
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2024-11-29 06:13:25.552 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-29 06:13:25.552 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-29 06:13:25.553 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-29 06:13:25.553 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:25.553 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:25.553 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:25.553 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.553 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.553 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.554 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.554 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.554 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.554 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2024-11-29 06:13:25.554 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-29 06:13:25.749 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Date: Fri, 29 Nov 2024 04:13:25 GMT[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.752 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.754 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Content-Length: 2489
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Date: Fri, 29 Nov 2024 04:13:25 GMT
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-29 06:13:25.754 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2024-11-29 06:13:25.768 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-29 06:13:25.768 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-29 06:13:25.814 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.814 [] wire -  << "Date: Fri, 29 Nov 2024 04:13:25 GMT[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.815 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-RateLimit-Remaining: 53[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-RateLimit-Reset: 1732854333[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.816 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] wire -  << "X-RateLimit-Used: 7[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] wire -  << "Content-Length: 1988[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] wire -  << "X-GitHub-Request-Id: E3F9:51177:18DC24A:1986790:67493F65[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:25.817 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:25.817 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:25.817 [] headers - << Date: Fri, 29 Nov 2024 04:13:25 GMT
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << ETag: W/"e4e219c9681128a40033a958333db6680eb9149ed827998b6f7b01a71240a513"
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Last-Modified: Thu, 24 Oct 2024 15:00:43 GMT
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-11-29 06:13:25.818 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << Server: github.com
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-RateLimit-Remaining: 53
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-RateLimit-Reset: 1732854333
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-RateLimit-Used: 7
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << Content-Length: 1988
+[DEBUG] 2024-11-29 06:13:25.819 [] headers - << X-GitHub-Request-Id: E3F9:51177:18DC24A:1986790:67493F65
+[DEBUG] 2024-11-29 06:13:25.823 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-11-29 06:13:25.824 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Yko[0xe3][0xb6][0x12][0xfd]+[0x82][0x8b][0xe2][0x2][0x8b][0x95],[0xd9][0xf2]#[0x2][0x8a][0xde]$vw[0x8b]n[0xb2][0xed]6Eq[0xfb][0x80]AI[0xb4]DG[0x12][0xb5]$[0xe5][0xac][0x1b][0xec][0xbf]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "[0x87][0x94][0x1c][0xc7][0x86][0x9b]x#[0xed][0x87]8[0xb4]l[0xcf][0xc][0xe7]q[0xe6]px[0xdf][0xab]D[0xd6][0xb]z[0xa9]R[0xa5][0xc][0xfa]}R2'a*[0xad]B'[0xe2]y_[0xd0][0x92][0xcb][0xfe][0xaf])Y[0xaa][0xb7][0xbf][0xf4]}{[0xfe][0xc3][0xcd]b~[0xfd][0xe6][0xc7][0xeb]9>[0xca]([0x91]T[0xf6][0xbd][0xa9]7[0x19][0xb9]#[0xdf][0xed][0xbd][0xee][0x11])[0xa9][0x92][0x8b][0xee]d[0xf6]k[0x89][0x10]][0x95][0x19]'[0xf1][0x81][0xe8][0xfa][0xa1]|[0xb1][0xc9][0x8d][0xf8][0xfb][0xef][0xb][0x92][0xd3][0xd7][0x19][0x9]i[0xf6][0x19][0xba]R[0x95]g[0x7][0x9a][0x1e]9[0xe5]iw([0x92][0xf4][0xa7][0x8e][0xef][0xc][0xdc][0x81][0xef][0xe1][0xf][0xe2]X[0xdc][0xb][0x1e][0xbc][0x4]'U*[0xe5][0xa2][0x17][0xdc][0xf7]2[0x9e][0xb0][0x2][0xde][0xaf][0x85][0xdb]$R[0x8c][0x17][0xf2][0xcf][0x90][0xab][0xbf][0x9b][0x9f][0xf9][0xde][0xf4]l:[0x98][0xe]^[0xf7][\n]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "[0x1e][0xd3][0x85][0x96][0xd4][0xbb][0x9a]][0x8d][0xc9][0xcf][0xdc][0xeb][0xd9][0xdc][0x93]l[0xde][0xcf]~[0xfc]N[0xfb]~M[0x14][0x11][0x87][0xbe]7[0xf][0xb7][0xe][0xaa]$[0x15][0x11]/[0x14]-[0x94][0x9]/+[0xfa][0xde]h8[0x9e]~[0xbf][0xfe]N[0xdb][0x99][0x88]F[0x86]Q[0xa3]}[0xfe]Tnha[0xb2][0xbf]o[0xfa][0xb7][0xa3][0xb][0x18][0xff][0xed]h[0xf6][0xac][0x13]IY[0x1e][0xfe][0x18][0xbf]Y[0xf2],[0xe3]w[0x90]{[0xb8][0x8d][0xfd][0xb4]|Ru[0xff]A[0xc8][0x83]@V$[0xed][0x5]B[0xc8]}[0x9f][0xab][0x94][0xc2][0xc7][0xd8][0xba][0xce][0x93][0x84][0xc9][0xe7][0xb2][0xfd]iS[0x8d][0x80]{8Q*[0xc4]V[0x8b][0x94][0x8][0x97][0xa0][0x87]y~P[0x96]O[0xb]mD[0xc0][0xd8][0xbb][0x2]v[0xde][0x9b]*6[0xb2][0xab]PF[0x82][0x95]&[0xcb][0xda]8dO[0x10][0x4]s[0x91][0x90][0x82][0xfd]CZ[0xb][0x86] [0x9]y[0x6]v[0xda][0x18]h[0x4]@[0x10]]#[0xd5][I[0xaa]%[0xdc][0xf7]K[0xc1][0xd6]$[0xda]h7[\n]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "[0x1a]Q[0xb6]F[0x8c][0xda]K?[0x10][0x5][0xe1]jSR[0x14][0xdf][0x5]Wx[0xa3][0xe3][0xbc]X3z[0xb7]h[0x1e][0x97]U[0x98][0xb1]H[0x87][0x92])[0xba] q[0xae][0xe1]cI2I??F[0x88][0xf][0xf3][0xc5][0xed][0xdd][0xec][0xfd][0xe5][0x1b]z3[0x96][0xfe]O[0xde]o[0xf2]J[0x8b]&[0xc9]B[0xe3][0x1c][0xc4][0x1f][0x0][0x14]r.[0xa1]j[0x1]H[0xc8][0x99]b2[0xc5]7r[0x2][0xd1][0x90]y[0xf4][0xfb][0xb1]@Ch[0x14][0xbf][0xee][0x95][0x82]6[0xcd][0xe0][0xe1]Q$(Q[0xf0][0x10][0xc1][0xb7]z[0x1a][0x9]m[0xcf][0xb5][0x7][0xfe][0x8d]7[\n]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "\7[0xf0][0xfc]? [0xda][0xec]E[0xa6][0xff][0xfa]-[0xa8][0xbf][0xd5][0xe0][0xf0][0xe7][0xdf]z[0x3]"$[0xd9]!2[0x9f][0xde][0xb2][0x9a][0xdf][0x1f][0xc2][0xf3]?[0xac]l%[0xb6][0xf9][0xfd][0xa1][0xd8][0x90][0xc7][0x1b][0xec][0xfe][0x9b]o[0xac][0xdf]S[0xa2][0xfe]#[0xad][0xcb][0x94][0x14][0x9][0x8d][0xff]*^Y[0x1f](bG[0xad][0xaa][0x4][0xe4][0xc6][0xd4][\n]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "7[0xd6][0xaf]xJB[0xbc]0j[0xb1][0xc2][0xda][0xf6][0xe3][0xe7][0xda]NYeY[0xdf][0x9b][0xc][0x86]Z[0xea]E[0x95][0x97][0x16][0x82][0xe8]$[0x9c]'[0x19]u"[0xb1])[0x15]w[0x14]+n[0x3][0xfd]b-[0x5][0xcf]-[0xcf][0xf1]|[0xc7][0xb3][0x14][0xd7][0xab][0x91][0xe3][0x1a][0xed]1-i[0x11][0x13][0x80][0xf7]K[0xb4][0x8f][0x1f][0xb4][0xa3][0x80][0x9d][\r][0xc9][0xb3]@[0x16][0xe4][0x96][0xea]U[0xad]t[0xe0][0xc][0xb4][0xc6][0x81]3[0xec]@[0xdd]hO[0x1d])I[0x94]R[0x7][0xbd][0x14][0xcd]4[0xd1][0xff][0xfd]U`^m[0xcf][0x19][0xd8]H[0x8f][0x7][0x13][0x86][0xf5][0xbe]a[0x8c][0xdf][0xc5][0xbe][0x87][0xde][0xa9][0x86]D\[0xd0][0xaf]f[0x85]{[0xaa][0x15]2[[0xfa][0xab][0x81][0xcd][0xf2]r[0x17][0x95][0x8e]]28;[0xd5][0x98][0xaf][0x18][0x97][0xc1]T[0x1b]![0xa8],i[0xa4][0xac]%[0x17][0x11][0xbd]Lit{C?[0xa9][0xdf][0x89][0xbc][0x1][0xc4][0xc6][0x97][0x1c]m6R[0xd9][0xa6]}[0xf1][\r][0x7]Z][0xc][0xa2][0x15][0x82][0x10][0xdf]P[0xb4][0xf4][0xe][0x84][0x9a][0x8a]68[0x8a][0xac][0xb6][\n]"
+[DEBUG] 2024-11-29 06:13:25.825 [] wire -  << "zg[0xa9][0x8e]$[0xfb]{![0x92][0xe0][0xf1][0x5][0xab][0xf2][0xf4][0xa3][0xb3]][0x6][0xdb][0x85][0xbd][0x2]![0xac][0xf3][0x16][0x84]V[0xd7][0xc]j[0x18][0xab]NP[0xc3][0xdf]a[0x16][0xe3]NTEU[0x1e]R[0x11]l[0x17]v[0xc9]"[0xae][0xc9]*[0x1a][0x11][0x15][0xb5][0x11][0x13][0xc7][0x9b][0xd6]%[0x8c][0xd5]Y[0x17]%[0xec][0xef]J[0xf8][0xa8][0x11];[0x7]|[0x5][0xdd][0xbb][0xc2]=[0xaa][[0xc7][0x1b][0xa1]7[0xa0][0xdd][0xbd][0xf6][0xe1][0xd1]J[0xcd][0x9][0x18][0x93]Sf[0x15][0xb0]T[0x6][0xe6][0x9d][0x9d][0x94][0x89]]?[0xa9]m[0x19]:[0x3]g[0xa4]3A/[0xc6][0xed][0xf1]|8[0xd1][0x9]y[0x8d][0xc]G*[0xe6] lVs[0x10]B/[0x3]l[0xb6]n[0x8e]C[0x3][0x7][0x87][0xcd]1[0xa9][0x90][0xdb][0x81]ym[0xb6]5t[0x86][0x8e]k[0xaf][0xa0]R[0xef]M[0xbf][0xf3][0xcc][0xbb][0xd6][0xfd][0xd1][0xdf]oX[0x92][0x17]D[0xf3]9'[0xc2]^[0x5][0xc9][0x82][0xe6][0xbf][0xdd]0"[0xd4][0xbb]]{[0xfe][0xb1][0xd7]]GW[0x1d],s[0x9d]q'[0x99]o`@[0xe3]J[0xed]e[0xaa][0x8] [0xd3][0x9c][0xe9][0xdb][0xbb][0xdc][0xdf]g[0x4][0xab][0xaa]`*0[0xaf]v[0x88]l6)=r<[0xaf][0xde][0x91]Yy[0x1d][0xf8][0xd9]$[0xd2]o%[0xa0][0x98]Z[0x1f][0xe6][0xe7][0xb3][0xab][0xb9][0x93][0xc7]F[0xee][0xf9][0xdb][0xab][0xf9]l[0xf6]v[0xfe][0xee][0xfc][0xdd][0xff]^[0xc0]pF[0xc6]Y9_k,[0x6][0xfb]M,R[0xc4]X[0xf0]RGd[0xe7][0xc4][0xb6]<n[0xb4][0xc3]D[0xcd][0xa4]r[0x1e][0xdd]2[0xc5][0x83][0xe6][0xbf][0xbd][0xa3][0x11]p[0x19][0x92]U+[0xc7][0xaa][0x13]23[0xda][0xf]Y[0xc3][0xaa]N[0xc5][0x83][0xf1][0x16][0xf]&[0xed][0xc3]8:[0x99][0xdf][0x1d]#4M[0x97]2[0x1c][0xaf][0x83][0x9c][0x1a][0x99][0x9c]2[0xe0][0xa1]#[0xf2][0x5]d[0xb3]kCv([0xf6][0x8c]!{d[0xb3]k+v]C[0x1f]4[0x96]D**>[0xe5][0x99][0xb3]"[0xd1]-[0x80][0xcd][0xd1]4H[0x83][[0xd0]<[0xb0][0xb7][0xf][0xec]U|;[0xdd]r`o[0xb2]=[0xf][0xa0][0xa1]wp[0x2][0x19][0xef]s[0x9a]'[0xeb][0xa6][0xf1][0x88][0xa9][0x9b][0xe][0x12]d[0xbc]_[0xb2]O$[0xc8]c[0xc6][0xdb]qX[0xc6][0x86][0x82][0x92]8[0xb6]" [0xb8][0xb8][0xa0] [0xbd][0x14]<[0x17]pu[0x85][0xb9][0xa1][0xb5][0xcc][0xb6][0x90]EqZ[0x8f]jN[0xc9][0xb3][0xd8]| [0xad][0x1a]"[0xd3]<[0xfe][0x83][0x14][0x9c][0x17]/[0x1]Hc[0x80][0xe7][0xba]g[0xf6][0x12][0x94][0xb5][0x12][0xd4][0x16][0xf4]c[0x5][0x6]c[0xc3]*[0xdb]pp{IXf[0xeb][0x3][0xbd][0xd0][0x83]"
+[DEBUG] 2024-11-29 06:13:25.826 [] wire -  << "";[0xa7]R[0x92][0x84][0xe2][0x89]M?E[0xd4][0x8c][0xa5]l*[0x4][0x17][0xdb][0x8f][0xda]7[0xa2][0xb1][0xc1][0x12][0xe3][0x98]J*t[0x9d]F[0xa9]>[0x15]`[0x9b]k[0x92][0xb1][0xd8][0xc2][0x98][0xb3][0x3]M[0x6]?[0xb7][0x1d][0x14]^.[0xad][0xdd][0x94][0xc5][0xf5][0xec]P7[0xd8][0xd6]\f|[0x14][0x8e][0x8e][0xa1][0xb4]f[0xae]1[0x8f][0xe][0x98][0x9b][0xe7][0xd6]][0x3][0xdc][0xc6][0xed]$[0xfb]w[0xa8]t[\n]"
+[DEBUG] 2024-11-29 06:13:25.826 [] wire -  << "[0x87][0xd5][0x9c][0x1d]=[0xb][0xd5][0xdf][0x89][0xf6][0xc9][0xce][0x1b]G[0xb5][0xef][0xb1][0xf7][0xae]u?[0xd1]/%[0xf2][0xc9][0x4][\r][0xb6][0xb][0xfb]1[0x97][0x1f]n[0x99][0x9c]^t[0x80]@[0x93]}[0x4][0xfa]w[0xb2]e[0x86]>[0x86]l[\r][0xda]w[0xe9][0x89][0xa9][0xf8][0xc3][0xc6]x,[0x13][0x1f][0x9c][0xb0][0x88]h[0xe8]lWNx[0xe6] w[0xfc]4[0xd9]uN[0xec][0x9f]4hIr'[0xa5][0xa4]>`[0x7][0xf]+[0xfb][0x8e][0x86][0xdb][0xa3][0xd4][0x8][0x13]1s[0x94][0x1a]9~[0x7]A[0xd9]o[0xcf][0xf9]F~[0xcc][0x2][0xf3][\n]"
+[DEBUG] 2024-11-29 06:13:25.826 [] wire -  << "[0xee]X[0x14][0x18]x[0x0]\W[0xb5]n[0xec][0xbd][0xae][0xc6]3G[0xf3][0xf0][0xd6][0xa7][0x9c][0xe9]~B<[0xd3][0x83][0xb7][0xb9][0x88]iB[0x7][0xaa]M[0xf0]5[\r][0xd7][0xb3][0x1d]=[0x2]-[0xd1][0xe2]B[0x96]1[0xb5][0xb1][0xee]p[0x9d]i[0xe9]^gZ[0xa3][0x15][0x9a][0xde]h[0x81][0xa3]h._[0xf7][0xbf][0xb8][0x12][0xfa][0x8d][0xa8][\n]"
+[DEBUG] 2024-11-29 06:13:25.826 [] wire -  << "[0xc5]0[0x96][0xed][0xa0][0x1f][0x8e]M [0xce][0xd1]w~[0xa6][0x2][\n]"
+[DEBUG] 2024-11-29 06:13:25.827 [] wire -  << "sRD[0xd4][0xba][0x11]`IZ[0x13]&[0xbc][0x1f][0xea][0xf6]xQ[0xb1],[0xd6][0xf3][\r][0xf4][0xa3][0xb][0xaa][0xc0][0xa6][0xac]y[0x11][0x97][0x9c][0xe1][0x18]|^[0x90]l#Y=M[0xfa]i#[0x18].[0xc7][0xe4]5Zf[0xfa][0x82][0xe]=4x[0xb5]d[0x9f][0xac][0xa6]3X[0x9][0xc5]`[0xc5][0xdc][0xd9][0xb4][0xef]KS[0x83]Ao([0xcf][0xb8]f[0x17][0x10][0x19][0x91]R[0x9a]]a[0xd6][0x9d]Y3[0xba]fp[0x0][0x9e][0xbf]#y[0x18][0x13]=%3Z[0xd3][0x95][0xc][0xf5][0xe8][0x16][0xfb][0xfe][0xf2][0xb1][0xf7][0xf4][0xd4]c[0xa6][0x19]>[0x1b][0xe4][0xeb]`[0xfe]<5d[0xf3][0xf1][0x15]J[0x7][0xfe]C'[0xfb][0xab][0xc0]][0x81][0x1e][0x83]\b[0xea]%XX[0xa1]X[0xa5]V[0xb5]z[0xcd][0xf5][0x8d][0x1][0xae]![0x19][0x92][0x86][0x9][0xb8]Q[0xf][0xc9][0xcc][0xd7][0xb5][0xdb][0xbf][0xdc][0x89][0xf5][0xd9][0xf6]q [0xba][0xd6][0xa0][0xc3][0x84]}[0xbc][0xfa][0x1][0x97][0x15][0xcd]-[0x8]B[0xfe][0xea]Up[0xf2]5[0x87][0xa9]hAq[0xc5][0x82][0x99][0x13][0xae][0x93][0xdc][0xe9][0xe0][0xcc]q[0x9c][0x83]k,=;2W[0x9b][0x11]G%[0xf7][0x82][0xf1][0xe7][0xff][0x3] [0xcb]][0x1b][0xdf] [0x0][0x0]"
+[DEBUG] 2024-11-29 06:13:25.827 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:25.882 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.883 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:25.885 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.886 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] wire -  << "]"
+[DEBUG] 2024-11-29 06:13:25.887 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17fa14a3
+[DEBUG] 2024-11-29 06:13:25.888 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-29 06:13:25.910 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20ec7f70
+[DEBUG] 2024-11-29 06:13:25.911 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-29 06:13:25.958 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:25.958 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-29 06:13:25.958 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-29 06:13:25.978 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-29 06:13:25.980 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[DEBUG] 2024-11-29 06:13:26.970 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:58361<->140.82.121.5:443 closed
+[INFO ] 2024-11-29 06:13:27.049 [] ReportManager - You're using the latest engine version "8.4.20241024". 👍
+[INFO ] 2024-11-29 06:13:27.056 [main] ReportManager - Handle response; GET | Response Time: 964ms.
+[INFO ] 2024-11-29 06:13:27.099 [main] ReportManager - Assert that "1" is equal to "1".
+[DEBUG] 2024-11-29 06:13:27.128 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-29 06:13:27.142 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-29 06:13:27.143 [main] ReportManager - Assertion passed
+[INFO ] 2024-11-29 06:13:27.145 [main] ReportManager - Assert that "1" is equal to "1".
+[DEBUG] 2024-11-29 06:13:27.147 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-29 06:13:27.147 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2024-11-29 06:13:27.148 [main] ReportManager - Assertion passed
+[INFO ] 2024-11-29 06:13:27.150 [main] ReportManager - Assert that "Introduction to Artificial Intelligence" is equal to "Introduction to Artificial Intelligence".
+[DEBUG] 2024-11-29 06:13:27.151 [main] ReportManager - Expected "Introduction to Artificial Intelligence", and actual "Introduction to Artificial Intelligence"
+[INFO ] 2024-11-29 06:13:27.153 [main] ReportManager - Expected "Introduction to Artificial Intelligence", and actual "Introduction to Artificial Intelligence"
+[INFO ] 2024-11-29 06:13:27.153 [main] ReportManager - Assertion passed
+[INFO ] 2024-11-29 06:13:27.155 [main] ReportManager - Assert that "Learn the basics of Artificial Intelligence and its applications in various industries." is equal to ""Learn the basics of Artificial Intelligence and its applications in various industries.".
+[DEBUG] 2024-11-29 06:13:27.157 [main] ReportManager - Expected ""Learn the basics of Artificial Intelligence and its applications in various industries.", and actual "Learn the basics of Artificial Intelligence and its applications in various industries."
+[INFO ] 2024-11-29 06:13:27.159 [main] ReportManager - Expected ""Learn the basics of Artificial Intelligence and its applications in various industries.", and actual "Learn the basics of Artificial Intelligence and its applications in various industries."
+[INFO ] 2024-11-29 06:13:27.162 [main] ReportManager - Assertion failed; expected "Learn the basics of Artificial Intelligence and its applications in various industries., but found Learn the basics of Artificial Intelligence and its applications in various industries.
+[INFO ] 2024-11-29 06:13:27.176 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckValuesForFirstObject'
+[INFO ] 2024-11-29 06:13:27.176 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                           Finished Execution of Test Method: 'ApiTest.ListOfPostsTestCases.CheckValuesForFirstObject'                           
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:27.343 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                                          Test Method: 'ApiTest.ListOfPostsTestCases.VerifyStatusCode'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-29 06:13:27.354 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:27.355 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-29 06:13:27.355 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-29 06:13:27.372 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:27.372 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:27.784 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-29 06:13:27.785 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-29 06:13:27.785 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:27.785 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:27.786 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:27.786 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.787 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.787 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.788 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.788 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.788 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.789 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.789 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:27.789 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-29 06:13:27.789 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-29 06:13:27.790 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-29 06:13:27.790 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2024-11-29 06:13:27.790 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-29 06:13:27.988 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Date: Fri, 29 Nov 2024 04:13:28 GMT[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.989 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:27.990 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Content-Length: 2489
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Date: Fri, 29 Nov 2024 04:13:28 GMT
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-29 06:13:27.990 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2024-11-29 06:13:27.991 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-29 06:13:27.991 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2024-11-29 06:13:27.992 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:27.993 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.994 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:27.995 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2024-11-29 06:13:27.996 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2024-11-29 06:13:27.997 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2024-11-29 06:13:27.998 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2024-11-29 06:13:27.999 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-29 06:13:27.999 [main] wire -  << "]"
+[DEBUG] 2024-11-29 06:13:27.999 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@33f3ebfc
+[DEBUG] 2024-11-29 06:13:27.999 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-29 06:13:28.004 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:28.004 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-29 06:13:28.004 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-29 06:13:28.009 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-29 06:13:28.010 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-29 06:13:28.043 [main] ReportManager - Handle response; GET | Response Time: 627ms.
+[INFO ] 2024-11-29 06:13:28.046 [main] ReportManager - Assert that "200" is equal to "200".
+[DEBUG] 2024-11-29 06:13:28.047 [main] ReportManager - Expected "200", and actual "200"
+[INFO ] 2024-11-29 06:13:28.048 [main] ReportManager - Expected "200", and actual "200"
+[INFO ] 2024-11-29 06:13:28.049 [main] ReportManager - Assertion passed
+[INFO ] 2024-11-29 06:13:28.049 [main] ReportManager - Verify status code is 200
+[INFO ] 2024-11-29 06:13:28.052 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyStatusCode'
+[INFO ] 2024-11-29 06:13:28.052 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'ApiTest.ListOfPostsTestCases.VerifyStatusCode'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:28.063 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                                          Test Method: 'ApiTest.ListOfPostsTestCases.validateJsonKeys'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-11-29 06:13:28.071 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:28.072 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-11-29 06:13:28.072 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-11-29 06:13:28.085 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:28.085 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2024-11-29 06:13:28.486 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-11-29 06:13:28.487 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-11-29 06:13:28.487 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:28.487 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-11-29 06:13:28.487 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> Accept: */*
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.5)
+[DEBUG] 2024-11-29 06:13:28.487 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Date: Fri, 29 Nov 2024 04:13:28 GMT[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-11-29 06:13:28.687 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Content-Length: 2489
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Content-Type: application/json
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Date: Fri, 29 Nov 2024 04:13:28 GMT
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2024-11-29 06:13:28.688 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2024-11-29 06:13:28.688 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2024-11-29 06:13:28.688 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "[[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2024-11-29 06:13:28.689 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2024-11-29 06:13:28.690 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:28.691 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "  },[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "  {[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "  }[\n]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] wire -  << "]"
+[DEBUG] 2024-11-29 06:13:28.692 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1d397e87
+[DEBUG] 2024-11-29 06:13:28.692 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2024-11-29 06:13:28.694 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-11-29 06:13:28.695 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-11-29 06:13:28.695 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/cyber/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-11-29 06:13:28.698 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-11-29 06:13:28.699 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-11-29 06:13:28.720 [main] ReportManager - Handle response; GET | Response Time: 608ms.
+[INFO ] 2024-11-29 06:13:28.722 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validateJsonKeys'
+[INFO ] 2024-11-29 06:13:28.723 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'ApiTest.ListOfPostsTestCases.validateJsonKeys'                               
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:28.727 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-11-29 06:13:28.729 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

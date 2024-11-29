@@ -1,0 +1,9 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                                          Test Method: 'ApiTest.ListOfPostsTestCases.validateJsonKeys'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @29-11-2024 06:13:28.0698 AM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @29-11-2024 06:13:28.0699 AM
+[ReportManager] Handle response; GET | Response Time: 608ms. @29-11-2024 06:13:28.0720 AM
