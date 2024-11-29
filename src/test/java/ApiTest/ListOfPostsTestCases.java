@@ -1,6 +1,6 @@
 package ApiTest;
 
-import ApiPages.contients;
+import ApiPages.Continents;
 import ApiPages.listofPost;
 import com.shaft.driver.SHAFT;
 import org.json.JSONArray;
@@ -28,7 +28,7 @@ public class ListOfPostsTestCases {
 
         // Convert the response body to JSON Object
         JSONArray usersArray = new JSONArray(responsebody);
-        JSONObject FirstPost = new JSONObject().getJSONObject((String.valueOf(usersArray.get(0))));
+        JSONObject FirstPost = usersArray.getJSONObject(0);
         SHAFT.Validations.assertThat().object(FirstPost.has("userId")).isTrue().perform();
         SHAFT.Validations.assertThat().object(FirstPost.has("id")).isTrue().perform();
         SHAFT.Validations.assertThat().object(FirstPost.has("title")).isTrue().perform();
@@ -37,35 +37,23 @@ public class ListOfPostsTestCases {
         SHAFT.Validations.assertThat().object(FirstPost.has("comment_count")).isTrue().perform();
 
 
+    }
+
+
+    public void CheckValuesForFirstObject() throws JSONException {
+        listofPost Request = new listofPost();
+        String response = Request.IntialGetRequest().getBody().asString();
+        JSONArray PostsArray = new JSONArray(response);
+        JSONObject Post = PostsArray.getJSONObject(0);
+        SHAFT.Validations.assertThat().object(Post.get("userId")).isEqualTo(1).perform();
+        SHAFT.Validations.assertThat().object(Post.get("id")).isEqualTo(1).perform();
+        SHAFT.Validations.assertThat().object(Post.get("title")).isEqualTo("Introduction to Artificial Intelligence").perform();
+        SHAFT.Validations.assertThat().object(Post.get("body")).isEqualTo("Learn the basics of Artificial Intelligence and its applications in various industries.").perform();
+        SHAFT.Validations.assertThat().object(Post.get("link")).isEqualTo("https://example.com/article1").perform();
+        SHAFT.Validations.assertThat().object(Post.get("comment_count")).isEqualTo(8).perform();
+
 
     }
-    /*
-     "userId": 1,
-    "id": 1,
-    "title": "Introduction to Artificial Intelligence",
-    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",
-    "link": "https://example.com/article1",
-    "comment_count": 8
-     */
-
-
-public void CheckValuesForFirstObject() throws JSONException {
-    listofPost Request=new listofPost();
-    String response=Request.IntialGetRequest().getBody().asString();
-    JSONArray PostsArray = new JSONArray(response);
-    JSONObject Post=new JSONObject(String.valueOf(PostsArray.get(0)));
-    SHAFT.Validations.assertThat().object(Post.get("userId")).isEqualTo(1).perform();
-    SHAFT.Validations.assertThat().object(Post.get("id")).isEqualTo(1).perform();
-    SHAFT.Validations.assertThat().object(Post.get("title")).isEqualTo("Introduction to Artificial Intelligence").perform();
-    SHAFT.Validations.assertThat().object(Post.get("body")).isEqualTo("\"Learn the basics of Artificial Intelligence and its applications in various industries.").perform();
-    SHAFT.Validations.assertThat().object(Post.get("link")).isEqualTo("https://example.com/article1").perform();
-    SHAFT.Validations.assertThat().object(Post.get("comment_count")).isEqualTo(8).perform();
-
-
-
-
-}
-
 
 
 }

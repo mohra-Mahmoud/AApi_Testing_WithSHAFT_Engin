@@ -25,7 +25,7 @@ public class GetAllUsersTestCases {
     }
 
     @Test
-    public void verifyUserStructure() throws JSONException {
+    public void VerifyFirstContinentValues() throws JSONException {
       Response response_GetRequest=response.getListOfUsers();
 
       String responsebody= response_GetRequest.getBody().asString();

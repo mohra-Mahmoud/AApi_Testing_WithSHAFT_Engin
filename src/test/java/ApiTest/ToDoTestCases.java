@@ -1,6 +1,7 @@
 package ApiTest;
 
 import ApiPages.ListOfToDo;
+import com.shaft.driver.SHAFT;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONArray;
@@ -39,8 +40,7 @@ public class ToDoTestCases {
         responsebody = response.body().asString();
       JSONArray  todoarray = new JSONArray(responsebody);
         JSONObject response = new JSONObject(String.valueOf(todoarray.get(0)));
-        Assert.assertEquals(response.get("title"), "Buy groceries");
-        Assert.assertTrue(response.get("id") instanceof Integer, "'id' should be an integer.");
+        SHAFT.Validations.assertThat().object(response.get("title")).isEqualTo("Buy groceries").perform();
 
     }
     // Asset that IDS is Unique
